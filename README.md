@@ -5,3 +5,6 @@ Join me on this interactive journey as we uncover quick tips, real-world example
 Let’s unlock the power of SOC Fundamentals together and stay one step ahead in the ever-evolving threat landscape.
 
 Link: https://app.letsdefend.io/training/lessons/soc-fundamentals
+
+![image](https://github.com/user-attachments/assets/4ee9a606-b2ef-4c6c-85a9-b54ef8c5381f)
+
