@@ -13,7 +13,7 @@ Welcome to the first step of your career as a SOC analyst. In this first lesson,
 The lesson will also discuss why a SOC analyst needs these SOC (Security Operations Center) tools and how to use them effectively.
 
 
-What will you learn in this course?
+**What will you learn in this course?**
 
 •	The structure of a SOC
 
@@ -28,7 +28,7 @@ What will you learn in this course?
 
 If you need a playlist to accompany you on your learning journey, check out our SOC Analyst Spotify playlist.
 
-SOC Types and Roles
+# SOC Types and Roles
 
 What is a SOC?
 A Security Operation Center (SOC) is a facility where the information security team continuously monitors and analyzes the security of an organization. 
