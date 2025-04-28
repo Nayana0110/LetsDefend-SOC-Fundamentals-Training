@@ -131,7 +131,33 @@ If you go to the “Log Management” page in LetsDefend, you will see various l
 
 
 
+**Purpose of Log Management**
+
+SOC analysts typically rely on Log Management to determine if there is any communication with a particular address and to view the details of that communication. Let's say you came across a piece of malware and after running it, you found that it was communicating with and executing commands from the "letsdefend.io" address. In this situation, the command&control center is "letsdefend.io", you can search for "letsdefend.io" in your company's log management to see if any devices have attempted to communicate with the command&control center.
+
+This leaves us with a second situation: You see a SIEM alert indicating that a LetsDefendHost device on your network is leaking data to IP address 122[.]194[.]229[.]59. You have conducted an investigation, isolated the device from the network, performed the necessary processes, and now you are in control. But there's still something you haven't addressed: are there any other devices sending data to the suspicious IP address (122[.]194[.]229[.]59)? The alert may have only included LetsDefendHost, but you should still search for the suspicious address in Log Management to see if there is anything the system may not have detected and try to find any connections.
+
+# EDR - Endpoint Detection and Response
+A SOC analyst must spend a significant amount of time using EDR when performing analysis on an endpoint device. The following sections discuss why EDR is beneficial to SOC analysts and how to use it effectively.
+
+**What is EDR ?**
+Endpoint Detection and Response (EDR), also known as Endpoint Threat Detection and Response (ETDR), is an integrated endpoint security solution that combines continuous, real-time monitoring and collection of endpoint data with rules-based automated response and analysis capabilities. (Definition source: mcafee.com)
+
+Analysis with EDR
+Some EDR solutions commonly used in the workplace: CarbonBlack, SentinelOne, and FireEye HX.
+
+To understand what you can do with EDR as an analyst, let's take a look at "Endpoint Security" on LetsDefend.
+
+![image](https://github.com/user-attachments/assets/a12fd490-b29a-423e-8b63-0c52aa5eda64)
+
+
+As you can see in the image, the accessible endpoint devices are listed on the left. You can search for endpoints in the search bar, or if there is an IOC (an IP address, file hash, process name, etc.), we can perform a search across all hosts.
+
+The right side displays general information about the device and shows sections such as Browser History, Network Connections, and Process List.
+
+![image](https://github.com/user-attachments/assets/5589b47b-d726-43e2-ba24-1f505660d68b)
 
 
 
+![image](https://github.com/user-attachments/assets/e78d0a07-3c9b-48b1-84d3-317092bd711c)
 
