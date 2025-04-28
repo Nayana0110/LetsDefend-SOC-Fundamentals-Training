@@ -36,6 +36,7 @@ The primary purpose of the SOC team is to detect, analyze, and respond to cybers
 
 
 **Types of SOC Models**
+
 Depending on your security needs and budget, there are several types of SOCs:
 
 
@@ -44,16 +45,20 @@ Depending on your security needs and budget, there are several types of SOCs:
 
 
 
-1) In-house SOC
+1) In-house SOC:
+
 This team is formed when an organization builds its cybersecurity team. Organizations considering an internal SOC should have a budget to support its continuity.
 
-2) Virtual SOC
+2) Virtual SOC:
+   
 This type of SOC team does not have a permanent facility and often works remotely in various locations.
 
-3) Co-Managed SOC
+3) Co-Managed SOC:
+ 
 The Co-Managed SOC consists of internal SOC staff working with an external Managed Security Service Provider (MSSP). Coordination is key in this type of model.
 
-4)Command SOC
+4)Command SOC:
+
 This SOC team oversees smaller SOCs across a large region. Organizations using this model include large telecommunications providers and defense agencies.
 
 
