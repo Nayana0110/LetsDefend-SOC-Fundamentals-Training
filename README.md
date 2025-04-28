@@ -116,7 +116,20 @@ You can view newly created alerts in the "Main Channel" and think of this channe
 When you click on the alert, you can see the details of the alert. This allows you to gather the information (hostname, IP address, file hash information, etc.) required to investigate.
 
 
- 
+# Log Management
+As a SOC Analyst, you will perform a lot of log analysis. For this reason, it is important to be familiar with "Log Management" systems/solutions. It doesn't matter what product you use, it's about knowing what to look for and where to look for it. The remainder of this lesson discusses how "Log Management" solutions can be used effectively by SOC analysts.
+
+**What is Log Management ?**
+As the name implies, Log Management provides access to all logs in an environment (web logs, OS logs, firewall, proxy, EDR, etc.) and allows you to manage them in one place. This increases efficiency and saves time.
+
+If you can't access the logs from one place, then the same request (e.g., the goal is to determine all users on letsdefend.io) would have to be sent to different devices. This would increase your margin for error and the amount of time you would need to spend.
+
+If you go to the “Log Management” page in LetsDefend, you will see various log sources such as Proxy, Exchange, and Firewall listed as “Type”. This means that all these log sources have been collected in one place and log output from sources like Proxy, FW, etc. can be seen with just one query.
+
+![image](https://github.com/user-attachments/assets/e24c06e7-5cc7-4578-90f3-42db98fb8f4c)
+
+
+
 
 
 
