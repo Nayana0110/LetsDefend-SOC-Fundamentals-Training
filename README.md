@@ -55,18 +55,14 @@ Depending on your security needs and budget, there are several types of SOCs:
 4) Command SOC:  This SOC team oversees smaller SOCs across a large region. Organizations using this model include large telecommunications providers and defense agencies.
 
 **People, Process, and Technology**
+
 Building a successful SOC requires serious coordination. Most importantly, there should be a strong relationship between people, processes, and technology.
 Simply put, we will discuss the people, processes, and technologies required for SOC.
 
-People :-
-A strong SOC team requires highly trained personnel who are familiar with security alerts and attack scenarios. Because attack types are constantly changing, you need team members who can easily adapt to new attack types and are willing to conduct research.
+**People :-**  A strong SOC team requires highly trained personnel who are familiar with security alerts and attack scenarios. Because attack types are constantly changing, you need team members who can easily adapt to new attack types and are willing to conduct research.
 
-Processes :-
+**Processes :-**  To further develop your SOC structure, you need to align it with many different types of security requirements, such as NIST, PCI, and HIPAA. All processes require extreme standardization of actions to ensure nothing is left out.
 
-To further develop your SOC structure, you need to align it with many different types of security requirements, such as NIST, PCI, and HIPAA. All processes require extreme standardization of actions to ensure nothing is left out.
-
-Technology :-
-
-The team needs to have different products for many tasks, such as penetration testing, detection, prevention, and analysis, and they need to follow the market and technology closely to find the best solution for the organization. Sometimes the best product on the market may not be the best product for your team. Remember to consider other factors such as the organization's budget.
+**Technology :-**  The team needs to have different products for many tasks, such as penetration testing, detection, prevention, and analysis, and they need to follow the market and technology closely to find the best solution for the organization. Sometimes the best product on the market may not be the best product for your team. Remember to consider other factors such as the organization's budget.
 
 
