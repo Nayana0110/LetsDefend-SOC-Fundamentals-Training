@@ -66,3 +66,18 @@ Simply put, we will discuss the people, processes, and technologies required for
 **Technology :-**  The team needs to have different products for many tasks, such as penetration testing, detection, prevention, and analysis, and they need to follow the market and technology closely to find the best solution for the organization. Sometimes the best product on the market may not be the best product for your team. Remember to consider other factors such as the organization's budget.
 
 
+# SOC Roles
+**1)SOC Analyst :**  This role can be categorized as Level 1, 2, and 3 according to the SOC structure. A security analyst classifies the alert, looks for the cause, and advises on remediation.
+
+**2)Incident Responder :**  An Incident Response Officer is an individual responsible for threat detection. This role performs the initial assessment of security breaches.
+
+**3)Threat Hunter :**  A Threat Hunter is a cybersecurity professional who proactively seeks out and investigates potential threats and vulnerabilities within an organization's network or system. They use a combination of manual and automated techniques to detect, isolate, and mitigate advanced persistent threats (APTs) and other sophisticated attacks that may evade traditional security measures. Threat hunters typically have a deep understanding of the organization's IT infrastructure and security posture, as well as knowledge of emerging threats and attack tactics. They aim to find and eliminate threats before they can damage or disrupt the business.
+
+**4)Security Engineer :**  Security engineers are responsible for maintaining the security infrastructure of Security Information and Event Management (SIEM) solutions and security operations center (SOC) products. For example, a security engineer builds the connection between SIEM and Security Orchestration, Automation, and Response (SOAR) products.
+
+**5)SOC Manager :**  A SOC manager takes on management responsibilities such as budgeting, strategizing, managing staff, and coordinating operations. They deal with operational rather than technical issues.
+
+# SOC Analyst and Their Responsibilities
+
+In this section, we will discuss what a SOC Analyst is, where they fit into the SOC team, and the general responsibilities of the role. It is important to review these sections carefully before learning about the technical side of the role. In this way, aspiring SOC Analyst candidates can get an idea of what their future career might look like. A SOC Analyst is the first person to investigate threats to a system. If the situation demands it, they escalate incidents to their supervisors so they can mitigate threats. The SOC Analyst plays an important role on the SOC team because they are the first person to respond to a threat.
+
