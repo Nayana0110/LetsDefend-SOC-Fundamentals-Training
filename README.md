@@ -85,14 +85,39 @@ Throughout the day, a SOC analyst typically reviews alerts in the SIEM and deter
 
 To be a successful SOC analyst who is not dependent on security products and can correctly analyze SIEM alerts, you must have the following skills and abilities.
 
-**Operating Systems**
+**Operating Systems :-**
 To determine what is abnormal in a system, you first need to know what is accepted as normal. For example, there are many services within the Windows operating system, and it is difficult to know which ones are suspicious without knowing which ones are or could be considered normal Windows services. Therefore, you should be familiar with how Windows/Linux operating systems work.
 
-**Network**
+**Network :-**
 First and foremost, in this role, you will be dealing with a lot of malicious IPs and URLs, so you need to confirm that there are no devices on the network trying to connect to those addresses. Once you accomplish that, it will set the direction of the analysis. This step is a bit more complicated because you may have to find a potential data leak on the network. To perform all of these functions, you need to understand the basics of networking.
 
-**Malware Analysis**
+**Malware Analysis :-**
 When dealing with most threats, you are likely to encounter some type of malicious software. To understand the real purpose of these malicious programs (they sometimes display different behaviors to fool analysts), you need to have malware analysis skills. It is important to at least determine what the command and control center of the malicious file is and whether or not there is a device communicating with that address.
+
+# SIEM and Analyst Relationship
+**What is SIEM ?**
+SIEM is a security solution that combines security information and event management, which involves real-time logging of events in an environment. The ultimate purpose of event logging is to detect security threats. Overall, SIEM products have a lot of features. The ones that interest us most as SOC analysts are those that collect and filter data and provide alerts for suspicious events.
+
+**Example alert:** If someone on a Windows operating system tries to enter 20 incorrect passwords in 10 seconds, this is suspicious activity. It is unlikely that someone who has forgotten their password would try to re-enter it that many times in such a short period of time. So we create a SIEM rule/filter to detect such activity that exceeds the threshold. Based on this SIEM rule, an alert will be generated when such a situation occurs.
+
+
+
+ ![image](https://github.com/user-attachments/assets/72a6ccb2-50b7-4def-bf9a-355e267002fe)
+
+
+
+
+Some popular SIEM solutions: IBM QRadar, ArcSight ESM, FortiSIEM, Splunk, etc. To get a better picture, you can visit the “Monitoring” page on LetsDefend.
+
+![image](https://github.com/user-attachments/assets/1a1eb494-6724-4ee3-b7f3-d2a62850c270)
+
+You can view newly created alerts in the "Main Channel" and think of this channel as a shared channel. Your teammates are not visible in this simulation, but in a real work scenario, your teammates will be able to see this panel. After you select the alert you want to work on, click the Take Ownership button in the Action area to take ownership of the alert and direct it to the Investigation Channel. This way, your teammates can see which alert you are actively working on. At the same time, this will help them see which alerts you are already working on so they can select other alerts. This way, your team can quickly review all alerts.
+
+When you click on the alert, you can see the details of the alert. This allows you to gather the information (hostname, IP address, file hash information, etc.) required to investigate.
+
+
+ 
+
 
 
 
